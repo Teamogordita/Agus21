@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
         !squares[pacmanCurrentIndex].classList.contains('scared-ghost')) {
         ghosts.forEach(ghost => clearInterval(ghost.timerId))
         document.removeEventListener('keyup', movePacman)
-        setTimeout(function(){ alert("que lastima! volve a intentarlo"); }, 500)
+        setTimeout(function(){ alert("que lastima! volvé a intentarlo"); }, 500)
       }
     }
   
@@ -227,7 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (score === 274) {
         ghosts.forEach(ghost => clearInterval(ghost.timerId))
         document.removeEventListener('keyup', movePacman)
-        setTimeout(function(){ alert("Bien gordita! Lo lograste. Tu primer pista es: Recuerda tu camino hasta aqui y piensa en placas rojas (Extra: ayudate con google si no sabes que es)"); }, 500)
+        setTimeout(function(){ alert("Bien gordita! Lo lograste. Tu pista para el 1er regalo es: Recuerda tu camino hasta aqui y piensa en placas rojas (Extra: ayudate con google si no sabes que es)"); }, 500)
       }
     }
   })
