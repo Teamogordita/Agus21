@@ -110,3 +110,13 @@ p {
     font-family: 'Cherry Swash',cursive;
     font-size: 16px;
 }
+
+.nombre{
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
