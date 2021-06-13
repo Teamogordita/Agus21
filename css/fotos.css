@@ -121,7 +121,7 @@ p {
     font-weight: bold;
 }
 .foto{
-    background-image: url(/img/epica.jpg);
+    background-image: url(img/epica.jpg);
     display: flex;
     width: 100%;
     flex-wrap: nowrap;
